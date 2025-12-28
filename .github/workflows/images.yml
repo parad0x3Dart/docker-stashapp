@@ -56,7 +56,7 @@ jobs:
         with:
           context: .
           platforms: linux/amd64
-          tags: ghcr.io/parad0x3dart/transmission:${{ matrix.version }}
+          tags: ghcr.io/parad0x3dart/stashapp:${{ matrix.version }}
           push: true
           file: Dockerfile
           build-args: |
